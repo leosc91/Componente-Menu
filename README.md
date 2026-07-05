@@ -10,8 +10,14 @@
 
 Para usar este componente en tu proyecto HTML, realiza lo siguiente:
 
-Coloca el archivo `componente.css` en tu carpeta `css/` y refernciarlo dentro de la etiqueta `<head>` de tu HTML:
+1. Coloca el archivo `componente.css` en tu carpeta `css/` y referenciarlo dentro de la etiqueta `<head>` de tu HTML:
 ```html
 <link rel="stylesheet" href="css/componente.css">
+```
+
+
+2. Coloca el archivo `componente.js` en tu carpeta `js/` y referenciarlo dentro de la etiqueta `<body>` de tu HTML:
+```html
+<script src="js/componente.js"></script>
 ```
 
