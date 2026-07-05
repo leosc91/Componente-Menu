@@ -40,4 +40,10 @@ const opcionesDeUsuario = [
     "Cerrar sesión"
 ];
 ```
+#Capturas
+1. Menú sin desplegar.
+<img width="377" height="200" alt="image" src="https://github.com/user-attachments/assets/c40644dc-564f-43e8-bbe4-d9118150db24" />
+
+2. Menú desplegado al hacer click encima del mismo.
+<img width="372" height="488" alt="image" src="https://github.com/user-attachments/assets/2ac5535a-ff07-40ba-a421-28ea8eca57a1" />
 
