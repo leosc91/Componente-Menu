@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, sans-serif;
+    background: #f7f9fa;
+    padding-top: 10vh;
+    color: #333;
+}
+
+.contenedor {
+    background: #fff;
+    padding: 30px;
+    max-width: 300px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+}
+
+h2 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+label, input, button {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-size: 15px;
+    background: #04474B;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: 0 4px 12px rgba(4, 71, 75, 0.4);
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+button:hover {
+    background: #04474B;
+    transform: translateY(-2px);
+}
+
+
+.mi-dropdown {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.menu-desplegable {
+    display: none;
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    z-index: 10;
+    box-sizing: border-box;
+}
+
+.menu-desplegable li a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #555;
+    border-radius: 10px;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.menu-desplegable li a:hover {
+    background: #f4f5f7;
+    color: #04474B; 
+}
+
+.menu-desplegable li {
+    margin-bottom: 4px;
+}
+
+.menu-desplegable li:last-child {
+    margin-bottom: 0;
+}
