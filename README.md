@@ -23,13 +23,13 @@ Para añadir este componente en tu proyecto HTML, realiza lo siguiente:
 # Uso
 Para añadir este componente a tu proyecto HTML, realiza lo siguiente:
 1. Crea un contenedor ```<div></div>``` con un id único para llamarlo.
-```
+```html
 <div class="contenedor">
     <div id="menu-cuenta"></div>
 </div>
 ```
 2. Para modificar las opciones predeterminadas, modifica el apartado final de componente.js
-```
+```js
 // En este apartado vienen las opciones, cuando emplees este componente modificalo para tus necesidades.
 const opcionesDeUsuario = [
     "Mi perfil",
