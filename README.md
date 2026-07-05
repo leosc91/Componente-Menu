@@ -22,7 +22,7 @@ Para añadir este componente en tu proyecto HTML, realiza lo siguiente:
 ```
 # Uso
 Para añadir este componente a tu proyecto HTML, realiza lo siguiente:
-1. Crea un contenedor ```<div></div>``` con un id único para llamarlo
+1. Crea un contenedor ```<div></div>``` con un id único para llamarlo.
 ```
 <div class="contenedor">
     <div id="menu-cuenta"></div>
