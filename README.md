@@ -1,6 +1,6 @@
 # Componente-Menu
 
-**Autor:** Salinas Cenobio Leonel Isaac
+**Autor:** Salinas Cenobio Leonel Isaac.
 **Proyecto:** Librería de componentes visuales.
 
 
